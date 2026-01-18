@@ -249,3 +249,13 @@ One could also use left tab or left shift as a different meta key.
 ## Profiles
 
 One can create different sets of rules for a given profile. Profiles allow you to have different sets of rules. For example, you could have one set for doing research, a second set for video editing, and third set for a specific app.
+
+## Config File
+
+Your configuration file is stored here:
+
+```
+/Users/<username>/.config/karabiner/karabiner.json
+```
+
+Config files can be shared and wisely backed up.
