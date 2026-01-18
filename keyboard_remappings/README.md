@@ -194,7 +194,7 @@ Later in this repository we will demostrate the [Warp terminal emulator](https:/
 
 Karabiner EventViewer is an app that you installed in Step 1. It shows you the key codes for the keys you press. It is useful for creating rules.
 
-![eventviewer](eventviewer.png)
+![eventviewer](images/eventviewer.png)
 
 ## What are the best mappings for you?
 
