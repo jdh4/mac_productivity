@@ -82,6 +82,78 @@ Next, make you first remapping which will allow you to cycles tabs with [caps lo
 }
 ```
 
+The following rule launches the Terminal by pressing [caps lock] + [L]: 
+
+```json
+{
+    "description": "Hyper + L -> Linux command line",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [{ "software_function": { "open_application": { "file_path": "/Applications/Terminal.app" } } }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
+Scroll down with [caps lock] + [J]:
+
+```json
+{
+    "description": "Hyper + J -> down_arrow",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [{ "key_code": "down_arrow" }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
+## Tap vs. Hold: Giving a Key Two Meanings
+
+A key can have a different meaning depending on whether it is quickly pressed and released versus being pressed for a specified amount of time before being released.
+
+Here is an example:
+
+```json
+{
+    "description": "Semicolon to right arrow plus enter when held",
+    "manipulators": [
+        {
+            "from": { "key_code": "semicolon" },
+            "parameters": {
+                "basic.to_if_alone_timeout_milliseconds": 250,
+                "basic.to_if_held_down_threshold_milliseconds": 250
+            },
+            "to_if_alone": [{ "key_code": "right_arrow" }],
+            "to_if_held_down": [
+                { "key_code": "right_arrow" },
+                { "key_code": "return_or_enter" }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+```
+
+If the semicolon key is pressed and released in under 250 milliseconds then that is equivalent to pressing the right arrow key. If held for more than 250 ms then it is equivalent to pressing right arrow followed by return. Notice the hyper key is not used. How to make a semicolon if needed?
+
+Later in this repository we will demostrate the [Warp terminal emulator](https://www.warp.dev) where the rule above will be useful.
+
+## What are the best mappings for you?
+
+Everyone is different. Think of the best shortcuts for your workflow.
+
+A general rule is not to use keyboards shortcuts for web browsers since those tend to use the mouse/trackpad. Try to think of cases that will allow you to STAY ON THE KEYBOARD as opposed to going to the mouse/trackpad.
 
 ## Additional Meta Keys (Advanced)
 
