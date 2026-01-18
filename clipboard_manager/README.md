@@ -4,6 +4,27 @@ Until recently Mac allowed for one item in the clipboard ([Ctrl] + [C]). The lat
 
 ## Raycast
 
+Configure Raycast to [option] + [V] to launch the clipboard manager.
+
+1. Open Raycast Settings: Launch Raycast (e.g., with [command] + Space) and type Settings, or press [command] + , (command + comma).
+1. Go to Extensions: In the Settings window, navigate to the Extensions tab.
+1. Enable Clipboard History: Find the "Clipboard History" extension in the list and ensure it's enabled (toggled on).
+1. Assign a Hotkey:
+    * Click on the Clipboard History extension in the list.
+    * Find the "Hotkey" column and set a custom shortcut, such as [option] + [V],  for instant access.
+
+Now launch it with [option] + [V]
+
+![Clipboard Manager](images/clipboard_overview.png)
+
+Things you can do:
+- double click on an entry in the left sidebar to paste the item
+- search the clipboard history
+- pin entries to make so they appear at the top for up to 1 year
+- adjust the lifetime of items in the history (up to 3 months is limit for unpinned entries)
+
+
+## Plain Text Extension
 
 ## Paste
 
