@@ -18,7 +18,6 @@ The most valuable key are the right home keys ([J], [K], [L], [;]) shown in red 
 
 ![meta key illustration](images/keyboard.jpg)
 
-
 #### Define Your Meta Key
 
 1. Open the Karabiner-Elements settings.
@@ -118,6 +117,44 @@ Scroll down with [caps lock] + [J]:
 }
 ```
 
+## More Examples
+
+Launch Chrome with [caps lock] + [K]:
+
+```json
+{
+    "description": "Hyper + K -> Khrome",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [{ "software_function": { "open_application": { "file_path": "/Applications/Google Chrome.app" } } }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
+Make Safair the frontmost app (or launch) with [caps lock] + [I]:
+
+```
+{
+    "description": "Hyper + I -> Safari",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "i",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [{ "software_function": { "open_application": { "file_path": "/Applications/Safari.app" } } }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
 ## Tap vs. Hold: Giving a Key Two Meanings
 
 A key can have a different meaning depending on whether it is quickly pressed and released versus being pressed for a specified amount of time before being released.
@@ -147,7 +184,17 @@ Here is an example:
 
 If the semicolon key is pressed and released in under 250 milliseconds then that is equivalent to pressing the right arrow key. If held for more than 250 ms then it is equivalent to pressing right arrow followed by return. Notice the hyper key is not used. How to make a semicolon if needed?
 
+The `to_if_alone_timeout_milliseconds` parameter determines how long the application waits for another key event after a specified key is pressed before concluding it was a "single press".
+
+The `to_if_held_down_threshold_milliseconds` parameter defines the delay before special actions trigger for a key held down, distinguishing it from a quick tap; a lower value means less waiting (faster response but more misfires), while a higher value requires a longer press, reducing accidental activation.
+
 Later in this repository we will demostrate the [Warp terminal emulator](https://www.warp.dev) where the rule above will be useful.
+
+## Using the Karabiner EventViewer
+
+Karabiner EventViewer is an app that you installed in Step 1. It shows you the key codes for the keys you press. It is useful for creating rules.
+
+![eventviewer](eventviewer.png)
 
 ## What are the best mappings for you?
 
@@ -162,3 +209,7 @@ It's nice to have the letter of the second key have some meaning (like [N] for n
 You can configure Karabiner-Elements to use [caps lock] plus a second key as the hyper to create more freedom. For instance, for operations concerning moving and resizing windows, one might use [caps lock] + [W] + (any third key). A specific example would be [caps lock] + [W] + [J] maximizes the current window.
 
 One could also use left tab or left shift as a different meta key.
+
+## Profiles
+
+One can create different sets of rules for a given profile. Profiles allow you to have different sets of rules. For example, you could have one set for doing research, a second set for video editing, and third set for a specific app.
