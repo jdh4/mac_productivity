@@ -29,7 +29,7 @@ Things you can do:
 
 ## Plain Text Extension
 
-Install the extension "Paste as Plain Text" and use a HotKey such as `[control] + [command] + [V]` to remove HTML and other formatting.
+Install the extension [Paste as Plain Text](https://www.raycast.com/koinzhang/paste-as-plain-text) and use a HotKey such as `[control] + [command] + [V]` to remove HTML and other formatting.
 
 ![Paste as Plain](images/paste_as_plain.png)
 
