@@ -20,7 +20,7 @@ The most valuable key are the right home keys ([J], [K], [L], [;]) shown in red 
 
 #### Define Your Meta Key
 
-1. Open the Karabiner-Elements settings.
+1. Open the Karabiner-Elements settings
 1. In left sidebar, choose "Complex Modifications"
 1. Click on "Add your own rule"
 1. Copy and paste the contents below and choose "Save"
@@ -54,7 +54,11 @@ The most valuable key are the right home keys ([J], [K], [L], [;]) shown in red 
 }
 ```
 
-Next, make you first remapping which will allow you to cycles tabs with [caps lock] + [N]:
+The `to_if_alone_timeout_milliseconds` parameter determines how long the application waits for another key event after a specified key is pressed before concluding it was a "single press".
+
+The `to_if_held_down_threshold_milliseconds` parameter defines the delay before special actions trigger for a key held down, distinguishing it from a quick tap; a lower value means less waiting (faster response but more misfires), while a higher value requires a longer press, reducing accidental activation.
+
+Next, make a rule to "Select Next Tab" for any application with [caps lock] + [N]:
 
 1. In left sidebar, choose "Complex Modifications"
 1. Click on "Add your own rule"
@@ -117,6 +121,24 @@ Scroll down with [caps lock] + [J]:
 }
 ```
 
+Mission control is [caps lock] + [M]:
+
+```json
+{
+    "description": "Hyper + m -> mission control",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "m",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [{ "apple_vendor_keyboard_key_code": "mission_control" }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
 ## More Examples
 
 Launch Chrome with [caps lock] + [K]:
@@ -139,7 +161,7 @@ Launch Chrome with [caps lock] + [K]:
 
 Make Safair the frontmost app (or launch) with [caps lock] + [I]:
 
-```
+```json
 {
     "description": "Hyper + I -> Safari",
     "manipulators": [
@@ -183,10 +205,6 @@ Here is an example:
 ```
 
 If the semicolon key is pressed and released in under 250 milliseconds then that is equivalent to pressing the right arrow key. If held for more than 250 ms then it is equivalent to pressing right arrow followed by return. Notice the hyper key is not used. How to make a semicolon if needed?
-
-The `to_if_alone_timeout_milliseconds` parameter determines how long the application waits for another key event after a specified key is pressed before concluding it was a "single press".
-
-The `to_if_held_down_threshold_milliseconds` parameter defines the delay before special actions trigger for a key held down, distinguishing it from a quick tap; a lower value means less waiting (faster response but more misfires), while a higher value requires a longer press, reducing accidental activation.
 
 Later in this repository we will demostrate the [Warp terminal emulator](https://www.warp.dev) where the rule above will be useful.
 
