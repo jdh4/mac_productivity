@@ -8,6 +8,8 @@ Install [Karabiner-Elements](https://karabiner-elements.pqrs.org) on your machin
 
 The software needs input monitoring permissions to capture and modify keystrokes. You will need to make multiple changes to your systems settings. Follow the directions while installing the software.
 
+![Login Items](images/login_items.png)
+
 ## Step 2: About the Meta Key
 
 The "meta key" is the key that you hold down which changes the meaning of all other keys.
