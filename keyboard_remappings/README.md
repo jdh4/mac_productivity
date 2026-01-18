@@ -141,6 +141,24 @@ Mission control is [caps lock] + [M]:
 
 ## More Examples
 
+Make VS Code the frontmost application (or launch) with [caps lock] + [O]:
+
+```json
+{
+    "description": "Hyper + o -> VS Code",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "o",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [{ "software_function": { "open_application": { "file_path": "/Applications/Visual Studio Code.app" } } }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
 Launch Chrome with [caps lock] + [K]:
 
 ```json
