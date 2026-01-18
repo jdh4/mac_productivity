@@ -11,21 +11,21 @@ Configure Raycast to [option] + [V] to launch the clipboard manager.
 1. Enable Clipboard History: Find the "Clipboard History" extension in the list and ensure it's enabled (toggled on).
 1. Assign a Hotkey:
     * Click on the Clipboard History extension in the list.
-    * Find the "Hotkey" column and set a custom shortcut, such as [option] + [V],  for instant access.
+    * Find the "Hotkey" column and set a custom shortcut, such as [option] + [V], for instant access.
 
-Now launch it with [option] + [V]
+Now launch it with [option] + [V]:
 
 ![Clipboard Manager](images/clipboard_overview.png)
 
 Things you can do:
 - double click on an entry in the left sidebar to paste the item
-- search the clipboard history
-- pin entries to make so they appear at the top for up to 1 year
+- search the clipboard history (start typing where it says "Type to filter entries...")
+- pin entries to make them appear at the top (for up to 1 year)
 - adjust the lifetime of items in the history (up to 3 months is limit for unpinned entries)
-
+- check out the metadata on the right by clicking on an item in the left
 
 ## Plain Text Extension
 
-## Paste
+## Paste App
 
-If you need a more powerful clipboard manager than what Raycast provides then see [Paste](https://pasteapp.io) ($29.99/year). Also, look at [Setapp](https://setapp.com) which is a subscription to a few hundred potentialy useful Mac apps.
+If you need a more powerful clipboard manager than what Raycast provides then see [Paste](https://pasteapp.io) ($29.99/year). Also, look at [Setapp](https://setapp.com) which is a subscription to a few hundred potentialy useful Mac apps (see Substage, CleanShot X, BetterTouchTool).
