@@ -24,7 +24,7 @@ A snippet is a block of text that can be recalled. To create a snippet:
 
 Use keywords to be replaced by a specified snippet.
 
-Use dynamic placeholders {}  <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Shift</kbd>
+Use dynamic placeholders {}  <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Shift</kbd> **⌃⌥⇧⌘Q**
 
 ## Quicklinks
 
