@@ -76,6 +76,12 @@ Note that rather than typing the keyword, one could use Karabiner-Elements to as
 
 ## Quicklinks
 
+Learn about and create a few [Quicklinks](https://manual.raycast.com/quicklinks).
+
+**Exercise 1**: Add the "Search Wikipedia" Quicklink. Then select a word in an app and run the Wikipedia Quicklink.
+
+**Exercise 2**: Create a new quicklink that opens your favorite browser to `https://www.princeton.edu/` or another URL. Consider making a `Hotkey` so that you can get there using only the keyboard.
+
 ## Calculator
 
 To use the calculator just enter the calculations:
