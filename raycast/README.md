@@ -16,7 +16,7 @@ Launch Raycast with `[command] + [space]` then do `[command] + [comma]`.
 
 ## Snippets
 
-A snippet is a block of text that can be recalled. To create a snippet:
+A [snippet](https://manual.raycast.com/snippets) is a block of text that can be recalled. To create a snippet:
 
 1. Launch Raycast
 1. Search "Create snippet"
