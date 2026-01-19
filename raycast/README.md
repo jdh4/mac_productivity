@@ -14,11 +14,31 @@ Launch Raycast with `[command] + [space]` then do `[command] + [comma]`.
 
 ![General Settings](images/raycast_general_settings.png)
 
+## Lanching Raycast
+
+Launch Raycast with <kbd>Control</kbd> + <kbd>Space</kbd>.
+
+## Raycast Settings
+
+Launch Raycast with <kbd>Control</kbd> + <kbd>Space</kbd>  then do <kbd>Command</kbd> + <kbd>Comma</kbd>.
+
 ## Clipboard Manager
 
 One of the most useful features in the [clipboard manager](../clipboard_manager/README.md).
 
 ## Search Files
+
+Raycast uses the Spotlight index (built-in) to search for files by filename and content.
+
+Open Raycast and run the "Search Files" command. Learn more about [Search Files](https://manual.raycast.com/core#Search%20Files).
+
+It is common to assign an alias of "sf" to the "Search Files" command.
+
+Our recommendation: Assign a Hotkey to "Search Files" such as <kbd>Caps Lock</kbd> + <kbd>S</kbd>
+
+Also, be sure to turn on searching within files by choosing "Configure Command".
+
+![Search Files](images/search_files.png)
 
 ## Snippets
 
