@@ -18,6 +18,8 @@ Launch Raycast with `[command] + [space]` then do `[command] + [comma]`.
 
 One of the most useful features in the [clipboard manager](../clipboard_manager/README.md).
 
+## Search Files
+
 ## Snippets
 
 A [snippet](https://manual.raycast.com/snippets) is a block of text that can be recalled. Snippets are handy for frequently used text such as canned email responses, code or emojis.
