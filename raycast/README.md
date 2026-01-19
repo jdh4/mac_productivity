@@ -14,6 +14,10 @@ Launch Raycast with `[command] + [space]` then do `[command] + [comma]`.
 
 ![General Settings](images/raycast_general_settings.png)
 
+## Clipboard Manager
+
+One of the most useful features in the [clipboard manager](../clipboard_manager/README.md).
+
 ## Snippets
 
 A [snippet](https://manual.raycast.com/snippets) is a block of text that can be recalled. Snippets are handy for frequently used text such as canned email responses, code or emojis.
@@ -91,3 +95,5 @@ To use the calculator just enter the calculations:
 The calculator history is stored.
 
 ## Window Management
+
+## Raycast Store
