@@ -14,6 +14,8 @@ Launch Raycast with <kbd>Command</kbd> + <kbd>Space</kbd>
 
 ![Raycast Root Search](images/raycast_root_search.png)
 
+To close Raycast, hit <kbd>ESC</kbd> or click on another window or <kbd>Command</kbd> + <kbd>Space</kbd>
+
 ## Opening the Raycast Settings
 
 Launch Raycast then <kbd>Command</kbd> + <kbd>Comma</kbd>
@@ -76,7 +78,7 @@ Note that rather than typing the keyword, one could use Karabiner-Elements to as
 
 ```json
 {
-    "description": "f6 to attend snippet",
+    "description": "f6 to @attend",
     "manipulators": [
         {
             "from": { "key_code": "f6" },
@@ -108,12 +110,15 @@ Learn about and create a few [Quicklinks](https://manual.raycast.com/quicklinks)
 
 ## Calculator
 
-To use the calculator just enter the calculations:
+Learn about the [calculator](https://manual.raycast.com/calculator).
 
-![Calculator](images/raycast_calculator.png)
-
-The calculator history is stored.
+The calculator history is stored (see the command "Calculator History").
 
 ## Window Management
 
 ## Raycast Store
+
+## Learn More Raycast
+
+- [Raycast Mac Manual](https://manual.raycast.com/mac)
+- [Raycast on YouTube](https://www.youtube.com/@raycastapp/videos)
