@@ -116,6 +116,12 @@ The calculator history is stored (see the command "Calculator History").
 
 ## Window Management
 
+Learn about [resizing, moving and arranging windows](https://manual.raycast.com/window-management).
+
+You will be prompted to set Accessibility permissions in your Security and Privacy settings. Only needed once.
+
+**Exercise**: Set some Hotkeys for useful operations. To have the frontmost window fill the right half of the screen consider <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Right Arrow</kbd>
+
 ## Raycast Store
 
 ## Learn More Raycast
