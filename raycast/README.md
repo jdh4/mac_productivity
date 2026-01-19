@@ -6,7 +6,7 @@
 
 Install [Raycast](https://www.raycast.com)  on your Mac.
 
-Next, [set the global hotkey](https://manual.raycast.com/hotkey) to launch Raycast and turn off Spotlight. To do this, open Raycast and then do <kbd>Command</kbd> + <kbd>Comma</kbd>
+Next, [set the global hotkey](https://manual.raycast.com/hotkey) to <kbd>Command</kbd> + <kbd>Space</kbd>. To do this, open Raycast and then do <kbd>Command</kbd> + <kbd>Comma</kbd>. Click on "General" then set the hotkey.
 
 ## Lanching Raycast
 
