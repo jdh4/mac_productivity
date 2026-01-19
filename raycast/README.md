@@ -16,7 +16,9 @@ Launch Raycast with `[command] + [space]` then do `[command] + [comma]`.
 
 ## Snippets
 
-A [snippet](https://manual.raycast.com/snippets) is a block of text that can be recalled. To create a snippet:
+A [snippet](https://manual.raycast.com/snippets) is a block of text that can be recalled. Snippets are handy for frequently used text such as canned email responses, code or emojis.
+
+To create a snippet:
 
 1. Launch Raycast
 1. Search "Create snippet"
@@ -25,6 +27,18 @@ A [snippet](https://manual.raycast.com/snippets) is a block of text that can be 
 Use keywords to be replaced by a specified snippet.
 
 Use dynamic placeholders {}  <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> is **⌃⌥⇧⌘Q**
+
+Learn about using [dynamic placeholders](https://manual.raycast.com/dynamic-placeholders) in snippets.
+
+Using the snippet below, after copying the person's first name to the clipboard, `{clipboard}` will be replaced:
+
+```
+Hi {clipboard},
+
+Yes, I will attend. See you there.
+
+Jon
+```
 
 ## Quicklinks
 
@@ -36,4 +50,4 @@ To use the calculator just enter the calculations:
 
 The calculator history is stored.
 
-## Working with App Windows
+## Window Management
