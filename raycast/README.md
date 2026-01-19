@@ -106,7 +106,7 @@ Learn about and create a few [Quicklinks](https://manual.raycast.com/quicklinks)
 
 **Exercise 1**: Add the "Search Wikipedia" Quicklink. Then select a word in an app and run the Wikipedia Quicklink.
 
-**Exercise 2**: Create a new quicklink that opens your favorite browser to `https://www.princeton.edu/` or another URL. Consider making a `Hotkey` so that you can get there using only the keyboard.
+**Exercise 2**: Create a new quicklink that opens your favorite browser to `https://www.princeton.edu` or another URL. Consider making a `Hotkey` so that you can get there using only the keyboard (maybe <kbd>Caps Lock</kbd> + <kbd>P</kbd>).
 
 ## Calculator
 
@@ -120,9 +120,11 @@ Learn about [resizing, moving and arranging windows](https://manual.raycast.com/
 
 You will be prompted to set Accessibility permissions in your Security and Privacy settings. Only needed once.
 
-**Exercise**: Set some Hotkeys for useful operations. To have the frontmost window fill the right half of the screen consider <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Right Arrow</kbd>
+**Exercise**: Set some Hotkeys for useful operations. To have the frontmost window fill the "Right Half" of the screen consider <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Right Arrow</kbd>
 
 ## Raycast Store
+
+Get free, open-source extensions at the [Raycast Store](https://manual.raycast.com/store).
 
 ## Learn More Raycast
 
