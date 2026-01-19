@@ -261,3 +261,9 @@ Your configuration file is stored here:
 ```
 
 Config files can be shared and wisely backed up.
+
+## Home Row Mods
+
+Instead of using a hyper key, one could map the modifier keys to home. When the key is held the modifer becomes active. When it is quickly tapped the key operates as usual. We will not explore this in the workshop.
+
+![Home Row Mods](images/home_row_mods.png)
