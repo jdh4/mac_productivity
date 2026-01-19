@@ -6,21 +6,17 @@
 
 Install [Raycast](https://www.raycast.com)  on your Mac.
 
-## Configuration
-
-[Set the global hotkey](https://manual.raycast.com/hotkey) to launch Raycast and turn off Spotlight.
-
-Launch Raycast with `[command] + [space]` then do `[command] + [comma]`.
-
-![General Settings](images/raycast_general_settings.png)
+Next, [set the global hotkey](https://manual.raycast.com/hotkey) to launch Raycast and turn off Spotlight. To do this, open Raycast and then do <kbd>Command</kbd> + <kbd>Comma</kbd>
 
 ## Lanching Raycast
 
-Launch Raycast with <kbd>Control</kbd> + <kbd>Space</kbd>.
+Launch Raycast with <kbd>Command</kbd> + <kbd>Space</kbd>
 
-## Raycast Settings
+## Opening the Raycast Settings
 
-Launch Raycast with <kbd>Control</kbd> + <kbd>Space</kbd>  then do <kbd>Command</kbd> + <kbd>Comma</kbd>.
+Launch Raycast then <kbd>Command</kbd> + <kbd>Comma</kbd>
+
+![General Settings](images/raycast_general_settings.png)
 
 ## Clipboard Manager
 
@@ -34,9 +30,9 @@ Open Raycast and run the "Search Files" command. Learn more about [Search Files]
 
 It is common to assign an alias of "sf" to the "Search Files" command.
 
-Our recommendation: Assign a Hotkey to "Search Files" such as <kbd>Caps Lock</kbd> + <kbd>S</kbd>
+Our recommendation: Assign a Hotkey to "Search Files" such as <kbd>Caps Lock</kbd> + <kbd>F</kbd> or <kbd>Caps Lock</kbd> + <kbd>S</kbd>
 
-Also, be sure to turn on searching within files by choosing "Configure Command".
+Also, be sure to turn on searching within files: Raycast Settings > Extensions > Search Files (see "Search by Files and Contents" below):
 
 ![Search Files](images/search_files.png)
 
