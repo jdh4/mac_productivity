@@ -33,7 +33,7 @@ If you use Warp and you do not need the semicolon often then use the following r
 
 To accept the predicted command press and hold the semicolon key. To modify the predicted command, tap the semicolon key then make edits before entering.
 
-If you actually need a semicolon then use something like <kbd>Caps Lock</kbd> + <kbd>'</kbd>.
+If you actually need a semicolon then use something like <kbd>Caps Lock</kbd> + <kbd>;</kbd>.
 
 ## VS Code
 
