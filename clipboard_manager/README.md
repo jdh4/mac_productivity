@@ -1,19 +1,19 @@
 # Clipboard Manager
 
-Until recently Mac allowed for one item in the clipboard (`[Ctrl] + [C]`). The latest version of Spotlight improved on this but it is still limited. Here we will use Raycast as our clipboard manager.
+Until recently Mac allowed for one item in the clipboard (<kbd>Control</kbd> + <kbd>C</kbd>). The latest version of Spotlight improved on this but it is still limited. Here we will use Raycast as our clipboard manager.
 
 ## Raycast
 
-Configure Raycast to `[option] + [V]` to launch the clipboard manager.
+Configure Raycast to <kbd>Option</kbd> + <kbd>V</kbd> to launch the clipboard manager.
 
-1. Open Raycast Settings: Launch Raycast (e.g., with `[command] + [space]`) and type Settings, or press `[command] + [comma]`.
+1. Open Raycast Settings: Launch Raycast (e.g., with <kbd>Command</kbd> + <kbd>Space</kbd>) and type Settings, or press <kbd>Command</kbd> + <kbd>Comma</kbd>.
 1. Go to Extensions: In the Settings window, navigate to the Extensions tab.
 1. Enable Clipboard History: Find the "Clipboard History" extension in the list and ensure it's enabled (toggled on).
 1. Assign a Hotkey:
     * Click on the Clipboard History extension in the list.
-    * Find the "Hotkey" column and set a custom shortcut, such as `[option] + [V]`, for instant access.
+    * Find the "Hotkey" column and set a custom shortcut, such as <kbd>Option</kbd> + <kbd>V</kbd>, for instant access.
 
-Now launch it with `[option] + [V]`:
+Now launch it with <kbd>Option</kbd> + <kbd>V</kbd>:
 
 ![Clipboard Manager](images/clipboard_overview.png)
 
@@ -29,10 +29,10 @@ Things you can do:
 
 ## Plain Text Extension
 
-Install the extension [Paste as Plain Text](https://www.raycast.com/koinzhang/paste-as-plain-text) and use a HotKey such as `[control] + [command] + [V]` to remove HTML and other formatting.
+Install the extension [Paste as Plain Text](https://www.raycast.com/koinzhang/paste-as-plain-text) and use a HotKey such as <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd> to remove HTML and other formatting.
 
 ![Paste as Plain](images/paste_as_plain.png)
 
 ## Paste App
 
-If you need a more powerful clipboard manager than what Raycast provides then see [Paste](https://pasteapp.io) ($29.99/year). Also, look at [Setapp](https://setapp.com) which is a subscription to a few hundred potentialy useful Mac apps (see Substage, CleanShot X, BetterTouchTool).
+If you need a more powerful clipboard manager than what Raycast provides then see [Paste](https://pasteapp.io) ($29.99/year). Also, look at [Setapp](https://setapp.com) which is a subscription to a few hundred potentialy useful Mac apps (see also Substage, CleanShot X, BetterTouchTool and more).
