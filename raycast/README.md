@@ -128,7 +128,7 @@ Learn about [resizing, moving and arranging windows](https://manual.raycast.com/
 
 You will be prompted to set Accessibility permissions in your Security and Privacy settings. Only needed once.
 
-**Exercise**: Set some Hotkeys for useful operations. To have the frontmost window fill the "Right Half" of the screen consider <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Right Arrow</kbd>
+**Exercise**: Set some Hotkeys for useful operations. To have the frontmost window fill the "Right Half" of the screen consider <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Right Arrow</kbd>. Repeat for "Left Half" using <kbd>Left Arrow</kbd>.
 
 ## Raycast Store
 
