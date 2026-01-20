@@ -126,9 +126,24 @@ You will be prompted to set Accessibility permissions in your Security and Priva
 
 Get free, open-source extensions at the [Raycast Store](https://manual.raycast.com/store).
 
-Install the extension [Paste as Plain Text](https://www.raycast.com/koinzhang/paste-as-plain-text) and use a Hotkey such as <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd> to remove HTML and other formatting. To do this, search on "store" in Raycast. In the store, search on "paste as". Double click on "Paste as Plain Text" then hit <kbd>Return</kbd> to install.
+Install the extension [Paste as Plain Text](https://www.raycast.com/koinzhang/paste-as-plain-text) and use a Hotkey such as <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd> to remove HTML and other formatting.
+
+To install:
+
+1. Search on "store" in Raycast
+1. In the store, search on "paste as"
+1. Double click on "Paste as Plain Text"
+1. Press <kbd>Return</kbd> to install the extension
 
 ![Paste as Plain](../clipboard_manager/images/paste_as_plain.png)
+
+To set the Hotkey:
+
+1. Open the Raycast Settings
+1. Click on "Extensions"
+1. Search for "paste as"
+1. Click on "Paste as Plain Text"
+1. Click on "Record Hotkey" then <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd>
 
 ## Learn More Raycast
 
