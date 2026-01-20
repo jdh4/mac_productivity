@@ -48,7 +48,7 @@ Assign a Hotkey to "Search Files":
 1. Click on "Search Files"
 1. Click on "Record Hotkey" then either <kbd>Caps Lock</kbd> + <kbd>F</kbd> or <kbd>Caps Lock</kbd> + <kbd>S</kbd>
 
-Also, be sure to consider turn on searching within files: Raycast Settings > Extensions > Search Files (see "Search by Files and Contents" below):
+Also, be sure to consider turn on searching within files: Raycast Settings > Extensions > Search Files (Search by: "Files and Contents"):
 
 ![Search Files](images/search_files.png)
 
