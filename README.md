@@ -12,6 +12,10 @@ Learn configuration settings and free apps for improving productivity on Mac. Tw
     February XX, 2026 at 4:30-6:00 PM  
     Instructor: Jonathan Halverson, Training Lead, Research Computing  
 
+## Mac Help
+
+First Tech Clinic (Frist 112) offers walk-in help and appointments for students with hardware/software issues.
+
 ## Authorship
 
 This guide was created by Jonathan Halverson of Princeton Research Computing.
