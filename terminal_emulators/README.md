@@ -4,7 +4,7 @@
 
 The [Warp terminal](https://www.warp.dev) is designed for AI code development but it can be used a replacement to Terminal.
 
-![Warp](warp.png)
+![Warp](images/warp.png)
 
 The big advantage of Warp is that it tries to predict your next command using an LLM. In the image above, the previous command was `git add .` and it is suggesting the next command to be `git commit -m "Update workshops"`.
 
