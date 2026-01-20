@@ -4,7 +4,7 @@ Learn configuration settings and free apps for improving productivity on Mac. Tw
 
 ## More Productivity Training
 
-* [Introduction to Mechanical Keyboards](https://cglink.me/2gi/r1969270)  
+* [Click, Clack, Hack! Introduction to Mechanical Keyboards](https://cglink.me/2gi/r1969270)  
     Tuesday, January 20, 2026 at 2:30-4:00 PM   
     Instructor:  Matt Coleman, Performance Tuning Analyst, Research Computing  
 
