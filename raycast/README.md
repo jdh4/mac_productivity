@@ -24,7 +24,7 @@ Launch Raycast then <kbd>Command</kbd> + <kbd>Comma</kbd>
 
 ## Clipboard Manager
 
-One of the most useful features in the [clipboard manager](../clipboard_manager/README.md).
+One of the most useful features is the [clipboard manager](../clipboard_manager/README.md).
 
 ## Search Files
 
@@ -32,11 +32,23 @@ Raycast uses the Spotlight index (built-in) to search for files by filename and 
 
 Open Raycast and run the "Search Files" command. Learn more about [Search Files](https://manual.raycast.com/core#Search%20Files).
 
-It is common to assign an alias of "sf" to the "Search Files" command.
+Assign the alias of "sf" to the "Search Files" command:
 
-Our recommendation: Assign a Hotkey to "Search Files" such as <kbd>Caps Lock</kbd> + <kbd>F</kbd> or <kbd>Caps Lock</kbd> + <kbd>S</kbd>
+1. Open the Raycast Settings
+1. Click on "Extensions"
+1. Search for "search files"
+1. Click on "Add alias"
+1. Type "sf"
 
-Also, be sure to turn on searching within files: Raycast Settings > Extensions > Search Files (see "Search by Files and Contents" below):
+Assign a Hotkey to "Search Files":
+
+1. Open the Raycast Settings
+1. Click on "Extensions"
+1. Search for "search files"
+1. Click on "Search Files"
+1. Click on "Record Hotkey" then either <kbd>Caps Lock</kbd> + <kbd>F</kbd> or <kbd>Caps Lock</kbd> + <kbd>S</kbd>
+
+Also, be sure to consider turn on searching within files: Raycast Settings > Extensions > Search Files (see "Search by Files and Contents" below):
 
 ![Search Files](images/search_files.png)
 
