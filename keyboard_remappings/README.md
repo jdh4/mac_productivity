@@ -32,33 +32,29 @@ The most valuable key are the right home keys (<kbd>J</kbd>, <kbd>K</kbd>, <kbd>
 
 ```json
 {
-    "manipulators": [
-        {
-            "description": "Change caps_lock to command+control+option+shift.",
-            "from": {
-                "key_code": "caps_lock",
-                "modifiers": { "optional": ["any"] }
-            },
-            "parameters": {
-                "basic.to_if_alone_timeout_milliseconds": 150,
-                "basic.to_if_held_down_threshold_milliseconds": 150
-            },
-            "to_if_alone": [{ "key_code": "escape" }],
-            "to_if_held_down": [
-                {
-                    "key_code": "left_shift",
-                    "modifiers": ["left_command", "left_control", "left_option"]
-                }
-            ],
-            "type": "basic"
-        }
-    ]
+  "description": "Change caps_lock to command+control+option+shift.",
+  "from": {
+    "key_code": "caps_lock",
+    "modifiers": {
+      "optional": [
+        "any"
+      ]
+    }
+  },
+  "to": [
+    {
+      "key_code": "left_shift",
+      "modifiers": [
+        "left_command",
+        "left_control",
+        "left_option"
+      ]
+    }
+  ],
+  "type": "basic"
 }
+
 ```
-
-The `to_if_alone_timeout_milliseconds` parameter determines how long the application waits for another key event after a specified key is pressed before concluding it was a "single press".
-
-The `to_if_held_down_threshold_milliseconds` parameter defines the delay before special actions trigger for a key held down, distinguishing it from a quick tap; a lower value means less waiting (faster response but more misfires), while a higher value requires a longer press, reducing accidental activation.
 
 Next, make a rule to "Select Next Tab" for any application with <kbd>Caps Lock</kbd> + <kbd>N</kbd>:
 
@@ -223,7 +219,39 @@ Make Safari the frontmost app (or launch it) with <kbd>Caps Lock</kbd> + <kbd>I<
 
 A key can have a different meaning depending on whether it is quickly pressed and released versus being pressed for a specified amount of time before being released.
 
-Here is an example:
+Here is an example where pressing <kbd>Caps Lock</kbd> quickly is equivalent to <kbd>Escape</kbd> but the hyper key (as above) if held:
+
+```json
+{
+    "manipulators": [
+        {
+            "description": "Change caps_lock to command+control+option+shift.",
+            "from": {
+                "key_code": "caps_lock",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_if_alone_timeout_milliseconds": 150,
+                "basic.to_if_held_down_threshold_milliseconds": 150
+            },
+            "to_if_alone": [{ "key_code": "escape" }],
+            "to_if_held_down": [
+                {
+                    "key_code": "left_shift",
+                    "modifiers": ["left_command", "left_control", "left_option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+```
+
+The `to_if_alone_timeout_milliseconds` parameter determines how long the application waits for another key event after a specified key is pressed before concluding it was a "single press".
+
+The `to_if_held_down_threshold_milliseconds` parameter defines the delay before special actions trigger for a key held down, distinguishing it from a quick tap; a lower value means less waiting (faster response but more misfires), while a higher value requires a longer press, reducing accidental activation.
+
+Here is another example:
 
 ```json
 {
@@ -261,6 +289,8 @@ Karabiner EventViewer is an app that you installed in Step 1. It shows you the k
 Everyone is different. Think of the best shortcuts for your workflow.
 
 A general rule is not to use keyboards shortcuts for web browsers since those tend to use the mouse/trackpad. Try to think of cases that will allow you to STAY ON THE KEYBOARD as opposed to going to the mouse/trackpad.
+
+See examples of [various rules](https://ke-complex-modifications.pqrs.org/) used by the Karabiner-Elements community.
 
 ## Additional Meta Keys (Advanced)
 
