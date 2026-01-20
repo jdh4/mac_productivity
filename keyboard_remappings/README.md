@@ -29,31 +29,25 @@ The most valuable key are the right home keys (<kbd>J</kbd>, <kbd>K</kbd>, <kbd>
 
 ![meta key definition](images/meta_key_definition.png)
 
-
 ```json
 {
-  "description": "Change caps_lock to command+control+option+shift.",
-  "from": {
-    "key_code": "caps_lock",
-    "modifiers": {
-      "optional": [
-        "any"
-      ]
-    }
-  },
-  "to": [
-    {
-      "key_code": "left_shift",
-      "modifiers": [
-        "left_command",
-        "left_control",
-        "left_option"
-      ]
-    }
-  ],
-  "type": "basic"
+    "manipulators": [
+        {
+            "description": "Change caps_lock to command+control+option+shift.",
+            "from": {
+                "key_code": "caps_lock",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_shift",
+                    "modifiers": ["left_command", "left_control", "left_option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
 }
-
 ```
 
 Next, make a rule to "Select Next Tab" for any application with <kbd>Caps Lock</kbd> + <kbd>N</kbd>:
