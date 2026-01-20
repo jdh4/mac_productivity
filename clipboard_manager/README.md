@@ -28,4 +28,4 @@ Things you can do:
 
 ## Paste App
 
-If you need a more powerful clipboard manager than what Raycast provides then see [Paste](https://pasteapp.io) ($29.99/year). Also, look at [Setapp](https://setapp.com) which is a subscription to a few hundred potentialy useful Mac apps (see also BusyCal, Substage, CleanShot X, BetterTouchTool and more).
+If you need a more powerful clipboard manager than what Raycast provides then see [Paste](https://pasteapp.io) ($29.99/year). Also, look at [Setapp](https://setapp.com) which is a subscription to a few hundred potentially useful Mac apps (see also BusyCal, Substage, CleanShot X, BetterTouchTool and more).
