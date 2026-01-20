@@ -28,9 +28,7 @@ One of the most useful features is the [clipboard manager](../clipboard_manager/
 
 ## Search Files
 
-Raycast uses the Spotlight index (built-in) to search for files by filename and content.
-
-Open Raycast and run the "Search Files" command. Learn more about [Search Files](https://manual.raycast.com/core#Search%20Files).
+Raycast uses the Spotlight index (built-in) to search for files by filename and content. Open Raycast and run the "Search Files" command. Learn more about [Search Files](https://manual.raycast.com/core#Search%20Files).
 
 Assign the alias of "sf" to the "Search Files" command:
 
@@ -63,8 +61,6 @@ To create a snippet:
 1. Create a snippet by giving it a name and entering the snippet
 
 Use keywords to be replaced by a specified snippet.
-
-Use dynamic placeholders {}  <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> is **⌃⌥⇧⌘Q**
 
 Learn about using [dynamic placeholders](https://manual.raycast.com/dynamic-placeholders) in snippets.
 
@@ -116,7 +112,7 @@ Note that rather than typing the keyword, one could use Karabiner-Elements to as
 
 Learn about and create a few [Quicklinks](https://manual.raycast.com/quicklinks).
 
-**Exercise 1**: Add the "Search Wikipedia" Quicklink. Then select a word in an app and run the Wikipedia Quicklink.
+**Exercise 1**: Add the "Search Wikipedia" Quicklink. Launch the Quicklink and enter a search term.
 
 **Exercise 2**: Create a new quicklink that opens your favorite browser to `https://www.princeton.edu` or another URL. Consider making a `Hotkey` so that you can get there using only the keyboard (maybe <kbd>Caps Lock</kbd> + <kbd>P</kbd>).
 
