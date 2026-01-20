@@ -278,7 +278,7 @@ One can create different sets of rules for a given profile. Profiles allow you t
 
 You can switch profiles on-the-fly using the menu bar:
 
-![Profiles Menu](images/profiles_menu.png)
+![Profiles Menu](images/profiles_menu.jpg)
 
 ## Config File
 
