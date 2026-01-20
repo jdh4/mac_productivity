@@ -76,6 +76,9 @@ Next, make a rule to "Select Next Tab" for any application with <kbd>Caps Lock</
     ]
 }
 ```
+Try out the new rule. Open a web browser with multiple tabs and try changing tabs with <kbd>Caps Lock</kbd> + <kbd>N</kbd>. This will also work in the Finder.
+
+## More Examples
 
 The following rule launches the Terminal by pressing <kbd>Caps Lock</kbd> + <kbd>L</kbd>:
 
@@ -95,7 +98,7 @@ The following rule launches the Terminal by pressing <kbd>Caps Lock</kbd> + <kbd
 }
 ```
 
-Scroll down with <kbd>Caps Lock</kbd> + <kbd>J</kbd>:
+Scroll down one line with <kbd>Caps Lock</kbd> + <kbd>J</kbd>:
 
 ```json
 {
@@ -133,7 +136,7 @@ Mission control is <kbd>Caps Lock</kbd> + <kbd>M</kbd>:
 }
 ```
 
-When watching a YouTube, go to the next chapter with <kbd>F9</kbd>:
+When watching a YouTube video, go to the next chapter with <kbd>F9</kbd>:
 
 ```json
 {
@@ -152,8 +155,6 @@ When watching a YouTube, go to the next chapter with <kbd>F9</kbd>:
     ]
 }
 ```
-
-## More Examples
 
 Make VS Code the frontmost application (or launch it) with <kbd>Caps Lock</kbd> + <kbd>O</kbd> (or maybe use <kbd>C</kbd> instead of <kbd>O</kbd>):
 
