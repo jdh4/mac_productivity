@@ -18,9 +18,9 @@ Now launch it with <kbd>Option</kbd> + <kbd>V</kbd>:
 ![Clipboard Manager](images/clipboard_overview.png)
 
 Things you can do:
-- double click on an entry in the left sidebar to paste the item
+- double click on an entry in the left sidebar to paste the item or select and then <kbd>Return</kbd>
 - search the clipboard history (start typing where it says "Type to filter entries...")
-- pin entries to make them appear at the top (for up to 1 year)
+- pinned entries to make them appear at the top (for up to 1 year)
 - check out the metadata on the right by clicking on an item in the left
 - adjust the lifetime of items in the history (up to 3 months is limit for unpinned entries)
 
