@@ -178,7 +178,7 @@ Make Chrome the frontmost app (or launch it) with <kbd>Caps Lock</kbd> + <kbd>K<
 
 ```json
 {
-    "description": "Hyper + K -> Khrome",
+    "description": "Hyper + K -> [K]hrome",
     "manipulators": [
         {
             "from": {
@@ -212,7 +212,7 @@ Make Safari the frontmost app (or launch it) with <kbd>Caps Lock</kbd> + <kbd>I<
 
 ## Tap vs. Hold: Giving a Key Two Meanings
 
-A key can have a different meaning depending on whether it is quickly pressed and released versus being pressed for a specified amount of time before being released.
+A key can have a different meaning depending on whether it is quickly pressed and released versus (tap) being pressed for a specified amount of time before being released (held).
 
 Here is an example where pressing <kbd>Caps Lock</kbd> quickly is equivalent to <kbd>Escape</kbd> but the hyper key (as above) if held:
 
@@ -269,17 +269,17 @@ Here is another example:
 }
 ```
 
-If the semicolon key is pressed and released in under 250 milliseconds then that is equivalent to pressing the right arrow key. If held for more than 250 ms then it is equivalent to pressing right arrow followed by return. Notice the hyper key is not used. How to make a semicolon if needed?
+If the semicolon key is pressed and released in under 250 milliseconds then that is equivalent to pressing the right arrow key. If held for more than 250 ms then it is equivalent to pressing right arrow followed by return. Note that the hyper key is not used.
 
-Later in this repository we will demostrate the [Warp terminal emulator](https://www.warp.dev) where the rule above will be useful.
+Later in this repository we will demostrate `Warp` in the `terminal_emulators` directory where the rule above will be useful.
 
 ## Using the Karabiner EventViewer
 
-Karabiner EventViewer is an app that you installed in Step 1. It shows you the key codes for the keys you press. It is useful for creating rules because it shows you the names of the keys that you are pressing.
+Karabiner EventViewer is an application that you installed in Step 1 above. It shows you the key codes for the keys you press. It is useful for creating rules because it shows you the names of the keys that you are pressing.
 
 ![eventviewer](images/eventviewer.png)
 
-## What are the best mappings for you?
+## What are the Best Mappings for You?
 
 Everyone is different. Think of the best shortcuts for your workflow.
 
@@ -289,15 +289,15 @@ See examples of [various rules](https://ke-complex-modifications.pqrs.org/) used
 
 ## Additional Hyper Keys (Advanced)
 
-It's nice to have the letter of the second key have some meaning (like <kbd>N</kbd> for next tab, or <kbd>L</kbd> for Linux termina). Holding the [caps lock] hyper key ties up your left hand leaving only a few letters for the second key (to be pressed with your right hand).
+It's nice to have the letter of the second key have some meaning (like <kbd>N</kbd> for next tab or <kbd>L</kbd> for Linux termina). Holding the [caps lock] hyper key ties up your left hand leaving only a few letters for the second key (to be pressed with your right hand).
 
-You can configure Karabiner-Elements to use <kbd>Caps Lock</kbd> plus a second key as the hyper to create more freedom. For instance, for operations concerning moving and resizing windows, one might use <kbd>Caps Lock</kbd> + <kbd>W</kbd> + (any third key). A specific example would be <kbd>Caps Lock</kbd> + <kbd>W</kbd> + <kbd>M</kbd> maximizes the current window.
+You can configure Karabiner-Elements to use <kbd>Caps Lock</kbd> plus a second key as the hyper key to create more freedom. For instance, for operations concerning moving and resizing windows, one might use <kbd>Caps Lock</kbd> + <kbd>W</kbd> + (any third key). A specific example might be <kbd>Caps Lock</kbd> + <kbd>W</kbd> + <kbd>M</kbd> maximizes the current window.
 
 One could also use left tab or left shift as a different hyper key.
 
 ## Profiles
 
-One can create different sets of rules for a given profile. Profiles allow you to have different sets of rules. For example, you could have one set for doing research, a second set for a project, and third set for a specific app. It is also a good idea to create one called "Off" which allow you turn off the shortcuts.
+Profiles allow you to have different sets of rules for different modes of work. For example, you could have one set for doing research, a second set for a particular project, and third set for a specific app (e.g., Final Cut Pro X for video editing). It is also a good idea to create a profile called "Off" which will allow you to quickly turn off the shortcuts.
 
 ![Profiles](images/profiles.png)
 
@@ -313,10 +313,10 @@ Your configuration file is stored here:
 /Users/<username>/.config/karabiner/karabiner.json
 ```
 
-Config files can be shared and should be backed up.
+Configuration files can be shared and should be backed up.
 
 ## Home Row Mods
 
-Instead of using a hyper key, one could map the modifier keys to home. When the key is held the modifer becomes active. When it is quickly tapped the key operates as usual. We will not explore this in the workshop.
+Instead of using a hyper key, one could map the modifier keys to the home row keys. When the key is held the modifer becomes active. When it is quickly tapped the key operates as usual. We will not explore this in the workshop.
 
 ![Home Row Mods](images/home_row_mods.jpg)
