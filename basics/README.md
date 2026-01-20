@@ -2,6 +2,10 @@
 
 ## Add Frequently Used Folders to Sidebar
 
+Click on a folder icon and drag it to the sidebar:
+
+![Folders to Sidebar Before](images/before_sidebar_arrow.png)
+
 ![Folders to Sidebar](images/sidebar.png)
 
 ## Tap to Click
