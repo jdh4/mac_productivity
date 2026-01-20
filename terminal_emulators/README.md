@@ -2,7 +2,7 @@
 
 ## Warp
 
-The [Warp terminal](https://www.warp.dev) is designed for AI code development but it can be used a replacement to Terminal.
+The [Warp terminal](https://www.warp.dev) is designed for AI code development but it can be used a replacement for Terminal. Warp is free (they only ask for an email address).
 
 ![Warp](images/warp.png)
 
