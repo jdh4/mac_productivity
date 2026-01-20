@@ -33,6 +33,10 @@ If you use Warp and you do not need the semicolon often then use the following r
 
 To accept the predicted command press and hold the semicolon key. To modify the predicted command, tap the semicolon key then make edits before entering.
 
+## VS Code
+
+Enable "Terminal Suggest" to turn on terminal intellisense or autocomplete.
+
 ## iTerm2
 
 The built-in Terminal application of macOS is insufficient. At least use [iTerm2](https://iterm2.com) as a replacement.
