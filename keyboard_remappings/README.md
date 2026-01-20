@@ -10,7 +10,7 @@ The software needs input monitoring permissions to capture and modify keystrokes
 
 ![Login Items](images/login_items.png)
 
-## Step 2: About the Meta Key
+## About the Hyper Key
 
 The "meta key" is the key that you hold down which changes the meaning of all other keys.
 
