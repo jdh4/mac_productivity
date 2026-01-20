@@ -8,13 +8,13 @@ Learn configuration settings and free apps for improving productivity on Mac. Tw
     Tuesday, January 20, 2026 at 2:30-4:00 PM   
     Instructor:  Matt Coleman, Performance Tuning Analyst, Research Computing  
 
-* Removing the Tedium from Your Research Workflow  
+* [Removing the Tedium from Your Research Workflow](https://github.com/PrincetonUniversity/removing_tedium)  
     February XX, 2026 at 4:30-6:00 PM  
     Instructor: Jonathan Halverson, Training Lead, Research Computing  
 
 ## Mac Help
 
-First Tech Clinic (Frist 112) offers walk-in help and appointments for students with hardware/software issues.
+Frist Tech Clinic (Frist 112) offers walk-in help and appointments for students with hardware/software issues.
 
 ## Authorship
 
