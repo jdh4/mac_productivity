@@ -8,6 +8,8 @@ Click on a folder icon and drag it to the sidebar:
 
 ![Folders to Sidebar](images/sidebar.png)
 
+**Exercise**: Add one of your frequently used folders to the sidebar.
+
 ## Tap to Click
 
 Turn on "Tap to Click".
