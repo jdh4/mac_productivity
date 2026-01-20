@@ -14,9 +14,9 @@ The software needs input monitoring permissions to capture and modify keystrokes
 
 The "hyper key" is the key that you hold down which changes the meaning of all other keys.
 
-The [caps lock] key is large and accessible but useless to most users. We will configure our keyboard so that when the caps lock key is held, other keys have a different meaning. For instance, <kbd>Caps Lock</kbd> + <kbd>L</kbd> could launch your Linux terminal or make it the top window.
+The <kbd>Caps Lock</kbd> key is large and accessible but useless to most users. We will configure our keyboard so that when <kbd>Caps Lock</kbd> is held, other keys have a different meaning. For instance, <kbd>Caps Lock</kbd> + <kbd>L</kbd> could launch your Linux terminal or make it the frontmost window.
 
-The most valuable key are the right home keys (<kbd>J</kbd>, <kbd>K</kbd>, <kbd>L</kbd> + <kbd>Semicolon</kbd>) shown in red in the image below. The next most valuable are those shown in orange.
+In this strategy, the most valuable keys are the right home keys (<kbd>J</kbd>, <kbd>K</kbd>, <kbd>L</kbd>, <kbd>Semicolon</kbd>) shown in red in the image below. The <kbd>Space</kbd> key is also valuable since your thumb rests on it. The next most valuable are those shown in orange.
 
 ![hyper key illustration](images/keyboard.jpg)
 
