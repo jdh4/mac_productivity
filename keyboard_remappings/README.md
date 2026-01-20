@@ -50,6 +50,11 @@ In this strategy, the most valuable keys are the right home keys (<kbd>J</kbd>, 
 }
 ```
 
+If you want to test the hyper key:
+
+1. Apple Menu > System Settings > Accessibility > Accessibility Keboard
+1. After the graphical keyboard loads, press <kbd>Caps Lock</kbd> and you should see that four keys are actually being triggered.
+
 Next, make a rule to "Select Next Tab" for any application with <kbd>Caps Lock</kbd> + <kbd>N</kbd>:
 
 1. In left sidebar, choose "Complex Modifications"
