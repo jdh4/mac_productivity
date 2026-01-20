@@ -272,7 +272,13 @@ One could also use left tab or left shift as a different meta key.
 
 ## Profiles
 
-One can create different sets of rules for a given profile. Profiles allow you to have different sets of rules. For example, you could have one set for doing research, a second set for video editing, and third set for a specific app.
+One can create different sets of rules for a given profile. Profiles allow you to have different sets of rules. For example, you could have one set for doing research, a second set for a project, and third set for a specific app. It is also a good idea to create one called "Off" which allow you turn off the shortcuts.
+
+![Profiles](images/profiles.png)
+
+You can switch profiles on-the-fly using the menu bar:
+
+![Profiles Menu](images/profiles_menu.png)
 
 ## Config File
 
