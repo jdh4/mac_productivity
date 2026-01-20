@@ -6,9 +6,13 @@ Click on a folder icon and drag it to the sidebar:
 
 ![Folders to Sidebar Before](images/before_sidebar_arrow.png)
 
+The `winter_2026` folder is now easly accessible:
+
 ![Folders to Sidebar](images/sidebar.png)
 
 **Exercise**: Add one of your frequently used folders to the sidebar.
+
+Later we will see how Raycast Quicklinks can also be used to quickly open a Finder window for a specific folder.
 
 ## Repeat Rates
 
