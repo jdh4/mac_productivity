@@ -18,7 +18,7 @@ Later we will see how Raycast Quicklinks can also be used to quickly open a Find
 
 Apple > System Settings > Keyboard
 
-Use the fastest "Key repeat rate" that you are comfortable with. Use a small "Delay until repeat".
+Use the fastest "Key repeat rate" that you are comfortable with. Use a small "Delay until repeat". This only applies to **certain applications** like the terminal and VS Code (when using the delete key).
 
 ![Repeat Rates](images/repeat.png)
 
