@@ -294,7 +294,7 @@ See examples of [various rules](https://ke-complex-modifications.pqrs.org/) used
 
 ## Additional Hyper Keys (Advanced)
 
-It's nice to have the letter of the second key have some meaning (like <kbd>N</kbd> for next tab or <kbd>L</kbd> for Linux termina). Holding the [caps lock] hyper key ties up your left hand leaving only a few letters for the second key (to be pressed with your right hand).
+It's nice to have the letter of the second key have some meaning (like <kbd>N</kbd> for next tab or <kbd>L</kbd> for Linux termina). Holding <kbd>Caps Lock</kbd> ties up your left hand leaving only a few letters for the second key (to be pressed with your right hand).
 
 You can configure Karabiner-Elements to use <kbd>Caps Lock</kbd> plus a second key as the hyper key to create more freedom. For instance, for operations concerning moving and resizing windows, one might use <kbd>Caps Lock</kbd> + <kbd>W</kbd> + (any third key). A specific example might be <kbd>Caps Lock</kbd> + <kbd>W</kbd> + <kbd>M</kbd> maximizes the current window.
 
