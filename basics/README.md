@@ -52,9 +52,16 @@ Drag items off the toolbar that you have not used. Drag items to the toolbar tha
 
 ## List vs. Column View
 
-Column view is good for navigation. List view is good for identifying files by name or date.
+Column view is good for navigation. List view is good for sorting files by name or date.
 
 - List view: <kbd>Command</kbd> + <kbd>2</kbd>  
 - Column view: <kbd>Command</kbd> + <kbd>3</kbd>  
 
-You can set the default view of a given folder with View > Show View Options and make sure "Always Open in list/column view is checked. This happens on a per directory basis as indicated by the name of the folder at the top of the window.
+You can retain the view of a given folder as follows:
+1. Select the folder
+2. Set the view (e.g., list or column)
+3. View > "Show View Options"
+4. Make sure "Always Open in <list/column> view" is checked
+5. Make additional changes to the settings for that folder
+
+The above applies to a single directory as indicated by the name of the folder at the top of the window. This allows one to assign a specific view to each of the various top-level directories.
