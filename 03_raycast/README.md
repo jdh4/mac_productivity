@@ -24,7 +24,7 @@ Launch Raycast then <kbd>Command</kbd> + <kbd>Comma</kbd>
 
 ## Clipboard Manager
 
-One of the most useful features is the [clipboard manager](../clipboard_manager/README.md).
+One of the most useful features is the [clipboard manager](clipboard_manager/README.md).
 
 ## Search Files
 

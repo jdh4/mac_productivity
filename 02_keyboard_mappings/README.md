@@ -10,6 +10,8 @@ The software needs input monitoring permissions to capture and modify keystrokes
 
 ![Login Items](images/login_items.png)
 
+See all of the [required changes](https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/) to the System Settings.
+
 ## About the Hyper Key
 
 The "hyper key" is the key that you hold down which changes the meaning of all other keys.
