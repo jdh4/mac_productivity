@@ -298,8 +298,6 @@ It's nice to have the letter of the second key have some meaning (like <kbd>N</k
 
 You can configure Karabiner-Elements to use <kbd>Caps Lock</kbd> plus a second key as the hyper key to create more freedom. For instance, for operations concerning moving and resizing windows, one might use <kbd>Caps Lock</kbd> + <kbd>W</kbd> + (any third key). A specific example might be <kbd>Caps Lock</kbd> + <kbd>W</kbd> + <kbd>M</kbd> maximizes the current window.
 
-One could also use left tab or left shift as a different hyper key.
-
 ## Profiles
 
 Profiles allow you to have different sets of rules for different modes of work. For example, you could have one set for doing research, a second set for a particular project, and third set for a specific app (e.g., Final Cut Pro X for video editing). It is also a good idea to create a profile called "Off" (without any rules) in case you need to turn everything off.
