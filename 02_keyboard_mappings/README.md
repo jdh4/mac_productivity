@@ -123,7 +123,7 @@ Scroll down one line with <kbd>Caps Lock</kbd> + <kbd>J</kbd>:
 }
 ```
 
-In the rule above, for faster scrolling one could use the substitution `"to_if_alone": [{ "key_code": "page_down" }],`.
+In the rule above, for faster scrolling one could use the substitution `"to_if_alone": [{ "key_code": "page_down" }],`. Maybe create another rule for scrolling up using <kbd>Caps Lock</kbd> + <kbd>U</kbd>.
 
 Mission control is <kbd>Caps Lock</kbd> + <kbd>M</kbd>:
 
