@@ -143,7 +143,7 @@ To install:
 1. Double click on "Paste as Plain Text"
 1. Press <kbd>Return</kbd> to install the extension
 
-![Paste as Plain](../clipboard_manager/images/paste_as_plain.png)
+![Paste as Plain](clipboard_manager/images/paste_as_plain.png)
 
 To set the Hotkey:
 
