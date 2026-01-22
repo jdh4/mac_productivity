@@ -36,8 +36,7 @@ Assign the alias of "sf" to the "Search Files" command:
 1. Click on "Extensions"
 1. Search for "search files"
 1. Click on "Search Files"
-1. Click on "Add alias"
-1. Type "sf"
+1. Click on "Add alias" then type "sf"
 
 Assign a Hotkey to "Search Files":
 
