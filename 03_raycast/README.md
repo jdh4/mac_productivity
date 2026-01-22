@@ -35,6 +35,7 @@ Assign the alias of "sf" to the "Search Files" command:
 1. Open the Raycast Settings
 1. Click on "Extensions"
 1. Search for "search files"
+1. Click on "Search Files"
 1. Click on "Add alias"
 1. Type "sf"
 
@@ -50,6 +51,8 @@ Also, be sure to consider turn on searching within files: Raycast Settings > Ext
 
 ![Search Files](images/search_files.png)
 
+Note that you can make certain directories [excluded from search](https://manual.raycast.com/core#Search%20Files).
+
 ## Snippets
 
 A [snippet](https://manual.raycast.com/snippets) is a block of text that can be recalled. Snippets are handy for frequently used text such as canned email responses, code or emojis.
@@ -58,9 +61,9 @@ To create a snippet:
 
 1. Launch Raycast
 1. Search "Create snippet"
-1. Create a snippet by giving it a name and entering the snippet
+1. Create a snippet by (1) giving it a name, (2) entering the snippet, and (3) assign a keyword
 
-Use keywords to be replaced by a specified snippet.
+When you type the keyword it will be replaced by the snippet.
 
 Learn about using [dynamic placeholders](https://manual.raycast.com/dynamic-placeholders) in snippets.
 
