@@ -65,3 +65,11 @@ You can retain the view of a given folder as follows:
 5. Make additional changes to the settings for that folder
 
 The above applies to a single directory as indicated by the name of the folder at the top of the window. This allows one to assign a specific view to each of the various top-level directories.
+
+## Mission Control vs. Stage Manager
+
+<kbd>Command</kbd> + <kbd>Tab</kbd>: switch between open applications
+
+## Multiple Desktops
+
+Good for cycling between multiple window layouts of different apps.
