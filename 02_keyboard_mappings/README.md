@@ -280,6 +280,73 @@ If the semicolon key is pressed and released in under 250 milliseconds then that
 
 Later in this repository we will demostrate `Warp` in the `terminal_emulators` directory where the rule above will be useful.
 
+## Double Tap
+
+Tap left shift twice quickly to generate the text `~/` (this is useful in the Linux terminal):
+
+```json
+{
+    "description": "Double tap left-shift to return ~/",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "name": "left_shift pressed",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "left_shift",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "grave_accent_and_tilde",
+                    "modifiers": ["shift"]
+                },
+                { "key_code": "slash" }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_shift",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "set_variable": {
+                        "name": "left_shift pressed",
+                        "value": 1
+                    }
+                },
+                { "key_code": "left_shift" }
+            ],
+            "to_delayed_action": {
+                "to_if_canceled": [
+                    {
+                        "set_variable": {
+                            "name": "left_shift pressed",
+                            "value": 0
+                        }
+                    }
+                ],
+                "to_if_invoked": [
+                    {
+                        "set_variable": {
+                            "name": "left_shift pressed",
+                            "value": 0
+                        }
+                    }
+                ]
+            },
+            "type": "basic"
+        }
+    ]
+}
+```
+
 ## Using the Karabiner EventViewer
 
 Karabiner EventViewer is an application that you installed in Step 1 above. It shows you the key codes for the keys you press. It is useful for creating rules because it shows you the names of the keys that you are pressing.
