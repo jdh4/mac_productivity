@@ -351,7 +351,8 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half | Window management |
 | <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
-| <kbd>Semicolon</kbd> | Right arrow or right arrow plus return | If tapped then right arrow else right arrow plus return |
+| <kbd>Semicolon</kbd> | Right Arrow or Right Arrow plus Return | If tapped then Right Arrow else Right Arrow plus Return |
 | <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon | Since hijack semicolon for Warp |
 | <kbd>Shift</kbd> + <kbd>Shift</kbd> | `~/` | Double tap shift |
+| <kbd>F6</kbd> | Email signature | |
 | <kbd>F9</kbd> | Next YouTube chapter | Media control |
