@@ -331,7 +331,8 @@ Instead of using a hyper key, one could map the modifier keys to the home row ke
 Here is how I work:
 
 | Shortcut | Action | Notes |
-|:--:|:---:|:---:|
+|:--|:---|:---|
+| <kbd>Caps Lock</kbd> | Escape | If tapped then escape else hyper key |
 | <kbd>Caps Lock</kbd> + <kbd>L</kbd> | Launch/activate Linux terminal (Warp) | |
 | <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari | |
 | <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome | |
@@ -341,10 +342,16 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | |
 | <kbd>Caps Lock</kbd> + <kbd>G</kbd> | Google search | |
 | <kbd>Caps Lock</kbd> + <kbd>W</kbd> | Wikipedia search | |
-| <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half |  |
-| <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half |  |
 | <kbd>Caps Lock</kbd> + <kbd>J</kbd> | Down arrow (next line) |  |
 | <kbd>Caps Lock</kbd> + <kbd>U</kbd> | Up arrow (previous line) |  |
 | <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab |  |
 | <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon |  |
-
+| <kbd>Caps Lock</kbd> + <kbd>Left Arrow</kbd> | Move window left |  |
+| <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right |  |
+| <kbd>Caps Lock</kbd> + <kbd>Minus</kbd> | Make window smaller |  |
+| <kbd>Caps Lock</kbd> + <kbd>Plus</kbd> | Make window larger |  |
+| <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half |  |
+| <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half |  |
+| <kbd>Shift</kbd> + <kbd>Shift</kbd> | `~/` | Double tap shift |
+| <kbd>F9</kbd> | Next YouTube chapter |  |
+| <kbd>Semicolon</kbd> | Right arrow | If tappend then right arrow else right arrow plus return |
