@@ -420,7 +420,7 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
 | <kbd>Semicolon</kbd> | Right Arrow or Right Arrow plus Return | If tapped then Right Arrow else Right Arrow plus Return |
 | <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon | Since semicolon taken for Warp |
-| <kbd>Shift</kbd> + <kbd>Shift</kbd> | `~/` | Double tap shift |
+| <kbd>Shift</kbd> + <kbd>Shift</kbd> | Produces the characters `~/` | Double tap shift (useful on command line) |
 | <kbd>Option</kbd> + <kbd>V</kbd> | Launch clipboard manager | Clipboard |
 | <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd> | Paste as plain text | Clipboard |
 | <kbd>F6</kbd> | Email signature | |
