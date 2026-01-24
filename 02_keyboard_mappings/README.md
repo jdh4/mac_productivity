@@ -341,17 +341,17 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | Search |
 | <kbd>Caps Lock</kbd> + <kbd>G</kbd> | Google search | Search |
 | <kbd>Caps Lock</kbd> + <kbd>W</kbd> | Wikipedia search | Search |
+| <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab | Navigation |
 | <kbd>Caps Lock</kbd> + <kbd>J</kbd> | Down arrow (next line) | Navigation |
 | <kbd>Caps Lock</kbd> + <kbd>U</kbd> | Up arrow (previous line) | Navigation |
-| <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab | Navigation |
 | <kbd>Caps Lock</kbd> + <kbd>Left Arrow</kbd> | Move window left | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Minus</kbd> (hypen) | Make window smaller | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Plus</kbd> (equals) | Make window larger | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half | Window management |
-| <kbd>Semicolon</kbd> | Right arrow | If tapped then right arrow else right arrow plus return |
 | <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
+| <kbd>Semicolon</kbd> | Right arrow or right arrow plus return | If tapped then right arrow else right arrow plus return |
 | <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon | Since hijack semicolon for Warp |
 | <kbd>Shift</kbd> + <kbd>Shift</kbd> | `~/` | Double tap shift |
 | <kbd>F9</kbd> | Next YouTube chapter | Media control |
