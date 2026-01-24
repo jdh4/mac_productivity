@@ -334,9 +334,9 @@ Here is how I work:
 |:--|:---|:---|
 | <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
 | <kbd>Caps Lock</kbd> + <kbd>L</kbd> | Launch/activate Linux terminal (Warp) | Application |
-| <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari | Application |
-| <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome | Application |
-| <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit | Application |
+| <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari (think safarI) | Application |
+| <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome (think Khrome) | Application |
+| <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit (think nOtes) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>T</kbd> | RC training webpage | Webpage |
 | <kbd>Caps Lock</kbd> + <kbd>A</kbd> | RC training archive | Webpage |
 | <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | Search |
@@ -347,8 +347,8 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab | Navigation |
 | <kbd>Caps Lock</kbd> + <kbd>Left Arrow</kbd> | Move window left | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right | Window management |
-| <kbd>Caps Lock</kbd> + <kbd>Minus</kbd> | Make window smaller | Window management |
-| <kbd>Caps Lock</kbd> + <kbd>Plus</kbd> | Make window larger | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Minus</kbd> | Make window smaller | Window management (hypen key) |
+| <kbd>Caps Lock</kbd> + <kbd>Plus</kbd> | Make window larger | Window management (equals key) |
 | <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half | Window management |
 | <kbd>Semicolon</kbd> | Right arrow | If tapped then right arrow else right arrow plus return |
