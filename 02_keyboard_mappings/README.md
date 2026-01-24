@@ -332,26 +332,26 @@ Here is how I work:
 
 | Shortcut | Action | Notes |
 |:--|:---|:---|
-| <kbd>Caps Lock</kbd> | Escape | If tapped then escape else hyper key |
-| <kbd>Caps Lock</kbd> + <kbd>L</kbd> | Launch/activate Linux terminal (Warp) | |
-| <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari | |
-| <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome | |
-| <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit | |
-| <kbd>Caps Lock</kbd> + <kbd>T</kbd> | RC training webpage | |
-| <kbd>Caps Lock</kbd> + <kbd>A</kbd> | RC training archive | |
-| <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | |
-| <kbd>Caps Lock</kbd> + <kbd>G</kbd> | Google search | |
-| <kbd>Caps Lock</kbd> + <kbd>W</kbd> | Wikipedia search | |
-| <kbd>Caps Lock</kbd> + <kbd>J</kbd> | Down arrow (next line) |  |
-| <kbd>Caps Lock</kbd> + <kbd>U</kbd> | Up arrow (previous line) |  |
-| <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab |  |
-| <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon |  |
-| <kbd>Caps Lock</kbd> + <kbd>Left Arrow</kbd> | Move window left |  |
-| <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right |  |
-| <kbd>Caps Lock</kbd> + <kbd>Minus</kbd> | Make window smaller |  |
-| <kbd>Caps Lock</kbd> + <kbd>Plus</kbd> | Make window larger |  |
-| <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half |  |
-| <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half |  |
+| <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
+| <kbd>Caps Lock</kbd> + <kbd>L</kbd> | Launch/activate Linux terminal (Warp) | Application |
+| <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari | Application |
+| <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome | Application |
+| <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit | Application |
+| <kbd>Caps Lock</kbd> + <kbd>T</kbd> | RC training webpage | Webpage |
+| <kbd>Caps Lock</kbd> + <kbd>A</kbd> | RC training archive | Webpage |
+| <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | Search |
+| <kbd>Caps Lock</kbd> + <kbd>G</kbd> | Google search | Search |
+| <kbd>Caps Lock</kbd> + <kbd>W</kbd> | Wikipedia search | Search |
+| <kbd>Caps Lock</kbd> + <kbd>J</kbd> | Down arrow (next line) | Navigation |
+| <kbd>Caps Lock</kbd> + <kbd>U</kbd> | Up arrow (previous line) | Navigation |
+| <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab | Navigation |
+| <kbd>Caps Lock</kbd> + <kbd>Left Arrow</kbd> | Move window left | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Minus</kbd> | Make window smaller | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Plus</kbd> | Make window larger | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half | Window management |
+| <kbd>Semicolon</kbd> | Right arrow | If tapped then right arrow else right arrow plus return |
+| <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon | Since hijack semicolon for Warp |
 | <kbd>Shift</kbd> + <kbd>Shift</kbd> | `~/` | Double tap shift |
-| <kbd>F9</kbd> | Next YouTube chapter |  |
-| <kbd>Semicolon</kbd> | Right arrow | If tappend then right arrow else right arrow plus return |
+| <kbd>F9</kbd> | Next YouTube chapter | Media control |
