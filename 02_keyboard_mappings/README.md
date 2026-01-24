@@ -325,3 +325,26 @@ Configuration files can be shared and should be backed up.
 Instead of using a hyper key, one could map the modifier keys to the home row keys. When the key is held the modifer becomes active. When it is quickly tapped the key operates as usual. We will not explore this in the workshop.
 
 ![Home Row Mods](images/home_row_mods.jpg)
+
+## My Keyboard Mappings
+
+Here is how I work:
+
+| Shortcut | Action | Notes |
+|:--:|:---:|:---:|
+| <kbd>Caps Lock</kbd> + <kbd>L</kbd> | Launch/activate Linux terminal (Warp) | |
+| <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari | |
+| <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome | |
+| <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit | |
+| <kbd>Caps Lock</kbd> + <kbd>T</kbd> | RC training webpage | |
+| <kbd>Caps Lock</kbd> + <kbd>A</kbd> | RC training archive | |
+| <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | |
+| <kbd>Caps Lock</kbd> + <kbd>G</kbd> | Google search | |
+| <kbd>Caps Lock</kbd> + <kbd>W</kbd> | Wikipedia search | |
+| <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half |  |
+| <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half |  |
+| <kbd>Caps Lock</kbd> + <kbd>J</kbd> | Down arrow (next line) |  |
+| <kbd>Caps Lock</kbd> + <kbd>U</kbd> | Up arrow (previous line) |  |
+| <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab |  |
+| <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon |  |
+
