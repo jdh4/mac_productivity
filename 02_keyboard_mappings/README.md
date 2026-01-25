@@ -414,7 +414,7 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>Left Arrow</kbd> | Move window left | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Down Arrow</kbd> | Make window smaller | Window management |
-| <kbd>Caps Lock</kbd> + <kbd>Up Arrow</kbd> (equals) | Make window larger | Window management |
+| <kbd>Caps Lock</kbd> + <kbd>Up Arrow</kbd> | Make window larger | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half | Window management |
 | <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
@@ -423,6 +423,6 @@ Here is how I work:
 | <kbd>Shift</kbd> + <kbd>Shift</kbd> | Produces the characters `~/` | Double tap shift (useful on command line) |
 | <kbd>Option</kbd> + <kbd>V</kbd> | Launch clipboard manager | Clipboard |
 | <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd> | Paste as plain text | Clipboard |
-| <kbd>F6</kbd> | Email signature | |
+| <kbd>F6</kbd> | Produce email signature | Text Snippet|
 | <kbd>F9</kbd> | Next YouTube chapter | Media control |
 | <kbd>F19</kbd> | Lock screen | System |
