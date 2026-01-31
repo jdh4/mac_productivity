@@ -217,6 +217,37 @@ Make Safari the frontmost app (or launch it) with <kbd>Caps Lock</kbd> + <kbd>I<
 }
 ```
 
+Copy output of previous command in Warp terminal with <kbd>Caps Lock</kbd> + <kbd>H</kbd>:
+
+```
+{
+    "description": "Hyper + h -> Copy output of previous Warp block",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to_if_alone": [
+                {
+                    "key_code": "up_arrow",
+                    "modifiers": ["command"]
+                },
+                {
+                    "key_code": "c",
+                    "modifiers": ["option", "shift", "command"]
+                },
+                {
+                    "key_code": "down_arrow",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+```
+
 ## Tap vs. Hold: Giving a Key Two Meanings
 
 A key can have a different meaning depending on whether it is quickly pressed and released versus (tap) being pressed for a specified amount of time before being released (held).
