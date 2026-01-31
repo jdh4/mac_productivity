@@ -423,6 +423,7 @@ Here is how I work:
 | <kbd>Shift</kbd> + <kbd>Shift</kbd> | Produces the characters `~/` | Double tap shift (useful on command line) |
 | <kbd>Option</kbd> + <kbd>V</kbd> | Launch clipboard manager | Clipboard |
 | <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>V</kbd> | Paste as plain text | Clipboard |
+| <kbd>Caps Lock</kbd> + <kbd>H</kbd> | Copy output in Warp | Clipboard |
 | <kbd>F6</kbd> | Produce email signature | Text Snippet|
 | <kbd>F9</kbd> | Next YouTube chapter | Media control |
 | <kbd>F19</kbd> | Lock screen | System |
