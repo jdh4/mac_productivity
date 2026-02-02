@@ -416,7 +416,7 @@ Your configuration file is stored here:
 /Users/<username>/.config/karabiner/karabiner.json
 ```
 
-Configuration files can be shared and should be backed up.
+Configuration files can be shared and should be backed up. You can copy your configuration file to another system.
 
 ## Home Row Mods
 
@@ -458,3 +458,17 @@ Here is how I work:
 | <kbd>F6</kbd> | Produce email signature | Text Snippet|
 | <kbd>F9</kbd> | Next YouTube chapter | Media control |
 | <kbd>F19</kbd> | Lock screen | System |
+
+Use <kbd>Command</kbd> + <kbd>L</kbd> to select the URL (address bar) in a web browser (Chrome and Safari).
+
+## Karabiner-Elements vs. Raycast
+
+Raycast does not allow for setting precise times (e.g., `to_if_alone_timeout_milliseconds`).
+
+Raycast does support double tapping as Hotkey.
+
+Raycast makes no distinction between left and right modifier keys. In Karabiner-Elements you can use right <kbd>Command</kbd> as a second hyper key while left <kbd>Command</kbd> functions as <kbd>Command</kbd>.
+
+You cannot assign a Hotkey to a snippet in Raycast (but this can effectively be done with Karabiner-Elements)
+
+You cannot create a sequence of keystrokes combined into a single Hotkey with Raycast (e.g., <kbd>Command</kbd> + <kbd>Up Arrow</kbd> followed by <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>C</kbd>).
