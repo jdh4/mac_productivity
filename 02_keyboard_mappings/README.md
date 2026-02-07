@@ -434,9 +434,11 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>I</kbd> | Launch/activate Safari (think safarI) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>K</kbd> | Launch/activate Chrome (think Khrome) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit (think nOtes) | Application |
+| <kbd>Caps Lock</kbd> + <kbd>P</kbd> | Launch/activate Preview (think Preview) | Application |
+| <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Launch/activate Finder (think Finder) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>T</kbd> | RC training webpage | Webpage |
 | <kbd>Caps Lock</kbd> + <kbd>A</kbd> | RC training archive | Webpage |
-| <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Search files | Search |
+| <kbd>Caps Lock</kbd> + <kbd>S</kbd> | Search files | Search |
 | <kbd>Caps Lock</kbd> + <kbd>G</kbd> | Google search | Search |
 | <kbd>Caps Lock</kbd> + <kbd>W</kbd> | Wikipedia search | Search |
 | <kbd>Caps Lock</kbd> + <kbd>N</kbd> | Next tab | Navigation |
@@ -446,8 +448,6 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>Right Arrow</kbd> | Move window right | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Down Arrow</kbd> | Make window smaller | Window management |
 | <kbd>Caps Lock</kbd> + <kbd>Up Arrow</kbd> | Make window larger | Window management |
-| <kbd>Caps Lock</kbd> + <kbd>Semicolon</kbd> | Make window right half | Window management |
-| <kbd>Caps Lock</kbd> + <kbd>Space</kbd> | Make window left half | Window management |
 | <kbd>Caps Lock</kbd> | Escape or Hyper Key | If tapped then Escape else Hyper Key |
 | <kbd>Semicolon</kbd> | Right Arrow or Right Arrow plus Return | If tapped then Right Arrow else Right Arrow plus Return |
 | <kbd>Caps Lock</kbd> + <kbd>quote</kbd> | Semicolon | Since semicolon taken for Warp |
@@ -459,7 +459,7 @@ Here is how I work:
 | <kbd>F9</kbd> | Next YouTube chapter | Media control |
 | <kbd>F19</kbd> | Lock screen | System |
 
-Use <kbd>Command</kbd> + <kbd>L</kbd> to select the URL (address bar) in a web browser (Chrome and Safari).
+Use <kbd>Command</kbd> + <kbd>L</kbd> to select the URL (address bar) in a web browser (Chrome and Safari) to stay on the keyboard.
 
 ## Karabiner-Elements vs. Raycast
 
