@@ -1,6 +1,6 @@
 # Raycast
 
-[Raycast](https://www.raycast.com) is a collection of productivity tools within an extendable launcher. See the [Raycast Mac Manual](https://manual.raycast.com/mac).
+[Raycast](https://www.raycast.com) is a collection of productivity tools within an extendable launcher. See the [Raycast Mac Manual](https://manual.raycast.com/mac) or the [Raycast Windows Manual](https://manual.raycast.com/windows).
 
 ## Install
 
