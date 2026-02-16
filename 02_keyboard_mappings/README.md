@@ -4,7 +4,7 @@ In this section, we will install and configure free software to remap keys, crea
 
 ## Step 1: Install
 
-**NOTE: Only Mac users that are very serious about having low-level control of their keyboard shortcuts should install Karabiner-Elements. Everyone else should skip this page and proceed to `[03_raycast](../03_raycast/README.md)`. 
+**NOTE: Only Mac users that are very serious about having low-level control of their keyboard shortcuts should install Karabiner-Elements. Everyone else should skip this page and proceed to [03_raycast](../03_raycast/README.md).** 
 
 Install [Karabiner-Elements](https://karabiner-elements.pqrs.org) on your machine.
 
