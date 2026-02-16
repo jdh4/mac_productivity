@@ -1,6 +1,6 @@
 # How to Configure Your Mac for Optimal Productivity
 
-Learn configuration settings and free apps for improving productivity on Mac. Two of the apps include Karabiner-Elements for creating keyboard shortcuts and Raycast for overall productivity (i.e., window management, file searching, quick links, clipboard history, and more). Terminal emulators with A.I. features will be presented. While the majority of tips apply to all Mac users, some focus will be on the Linux command line and how to configure your machine before connecting to a high-performance computing cluster.
+Learn configuration settings and free apps for improving productivity on Mac (or Windows). Two of the apps include Karabiner-Elements for creating keyboard shortcuts and Raycast for overall productivity (i.e., window management, file searching, quick links, clipboard history, and more). Terminal emulators with A.I. features will be presented. While the majority of tips apply to all Mac users, some focus will be on the Linux command line and how to configure your machine before connecting to a high-performance computing cluster.
 
 ## More Productivity Training
 
@@ -9,7 +9,7 @@ Learn configuration settings and free apps for improving productivity on Mac. Tw
     Instructor:  Matt Coleman, Performance Tuning Analyst, Research Computing  
 
 * [Removing the Tedium from Your Research Workflow](https://github.com/PrincetonUniversity/removing_tedium)  
-    February XX, 2026 at 4:30-6:00 PM  
+    February 16, 2026 at 4:30-6:00 PM  
     Instructor: Jonathan Halverson, Training Lead, Research Computing  
 
 ## Mac Help
