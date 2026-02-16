@@ -22,6 +22,15 @@ Launch Raycast then <kbd>Command</kbd> + <kbd>Comma</kbd>
 
 ![General Settings](images/raycast_general_settings.png)
 
+## Set the Hyper Key (if not using Karabiner-Elements on Mac)
+
+1. Launch Raycast
+1. Open the settings with <kbd>Command</kbd> + <kbd>Comma</kbd>
+1. Choose the "Advanced" tab
+1. Next to "Hyper Key", choose "Caps Lock" from the dropdown menu
+
+When you press and hold "Caps Lock" every other key will have a different meaning that you can assign.
+
 ## Clipboard Manager
 
 One of the most useful features is the [clipboard manager](clipboard_manager/README.md).
