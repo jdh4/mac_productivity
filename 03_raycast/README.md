@@ -57,6 +57,8 @@ Assign a Hotkey to "Search Files":
 
 Also, be sure to consider turn on searching within files: Raycast Settings > Extensions > Search Files (Search by: "Files and Contents"):
 
+If you find that Spotlight is finding files that Raycast cannot find then do: System Settings > Privacy & Security > "Full Disk Access". Toggle Raycast to have full disk access.
+
 ![Search Files](images/search_files.png)
 
 Note that you can make certain directories [excluded from search](https://manual.raycast.com/core#Search%20Files).
