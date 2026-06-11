@@ -438,6 +438,7 @@ Here is how I work:
 | <kbd>Caps Lock</kbd> + <kbd>O</kbd> | Launch/activate TextEdit (think nOtes) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>P</kbd> | Launch/activate Preview (think Preview) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>F</kbd> | Launch/activate Finder (think Finder) | Application |
+| <kbd>Caps Lock</kbd> + <kbd>M</kbd> | Launch/activate Notes (think Mac notes) | Application |
 | <kbd>Caps Lock</kbd> + <kbd>T</kbd> | RC training webpage | Webpage |
 | <kbd>Caps Lock</kbd> + <kbd>A</kbd> | RC training archive | Webpage |
 | <kbd>Caps Lock</kbd> + <kbd>S</kbd> | Search files | Search |
