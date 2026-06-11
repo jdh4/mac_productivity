@@ -463,6 +463,7 @@ Here is how I work:
 | <kbd>F19</kbd> | Lock screen | System |
 
 Use <kbd>Command</kbd> + <kbd>L</kbd> to select the URL (address bar) in a web browser (Chrome and Safari) to stay on the keyboard.
+Use <kbd>Command</kbd> + <kbd>T</kbd> to open a new tab in a web browser (Chrome and Safari) to stay on the keyboard.
 
 ## Karabiner-Elements vs. Raycast
 
