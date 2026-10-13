@@ -235,6 +235,7 @@ Copy output of previous command in Warp terminal with <kbd>Caps Lock</kbd> + <kb
                     "key_code": "up_arrow",
                     "modifiers": ["command"]
                 },
+                { "shell_command": "sleep 0.1" },
                 {
                     "key_code": "c",
                     "modifiers": ["option", "shift", "command"]
