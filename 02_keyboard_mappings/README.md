@@ -219,9 +219,27 @@ Make Safari the frontmost app (or launch it) with <kbd>Caps Lock</kbd> + <kbd>I<
 }
 ```
 
+Focus on open Finder window or launch a new Finder:
+
+```json
+{
+    "description": "Hyper + f -> Focus Finder or open a window",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "f",
+                "modifiers": { "mandatory": ["command", "shift", "option", "control"] }
+            },
+            "to": [{ "shell_command": "osascript -e 'tell application \"Finder\" to activate' -e 'tell application \"System Events\" to tell process \"Finder\" to if (count of windows) > 0 then perform action \"AXRaise\" of window 1' -e 'tell application \"Finder\" to if (count of windows) = 0 then make new Finder window'" }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
 Copy output of previous command in Warp terminal with <kbd>Caps Lock</kbd> + <kbd>H</kbd>:
 
-```
+```json
 {
     "description": "Hyper + h -> Copy output of previous Warp block",
     "manipulators": [
