@@ -219,7 +219,7 @@ Make Safari the frontmost app (or launch it) with <kbd>Caps Lock</kbd> + <kbd>I<
 }
 ```
 
-Focus on open Finder window or launch a new Finder:
+Focus on open Finder window or launch a new Finder -- you will need to enable "Karabiner-Console-User-Server.app" under "Privacy & Security" in Mac System Settings:
 
 ```json
 {
