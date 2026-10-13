@@ -73,3 +73,7 @@ The above applies to a single directory as indicated by the name of the folder a
 ## Multiple Desktops
 
 Good for cycling between multiple window layouts of different apps.
+
+## Turning Off Spelling Autocorrect (for AI tools and web browser)
+
+If you work with code or esoteric input text then right click in a text box and choose "Spelling and Grammar" then uncheck "Correct Spelling Automatically".
